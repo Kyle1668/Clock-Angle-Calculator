@@ -2,7 +2,7 @@
 <html>
 
 
-  <head>
+<head>
     <!--Mobile Functionality-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,54 +15,57 @@
     <link rel="stylesheet" href="clock.css">
 
     <title>Clock Angle Calculator</title>
-  </head>
+</head>
 
 
-  <body>
+<body>
 
 
-      <!--Upper Title Bar-->
+    <!--Upper Title Bar-->
     <nav class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Clock Angle Calculator</a>
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Clock Angle Calculator</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Created by Kyle O'Brien</a></li>
+                </ul>
+            </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Created by Kyle O'Brien</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
     <!--Header & Instructions-->
     <div class="container-fluid">
-      <div class="header">
-        <h1>Clock Angle Calculator</h1>
-        <img src="clockImg.png">
-        <p class="lead">
-            <strong>Step 1:</strong> Input time in number format. <br>
-            <strong>Step 2:</strong> Press the "Calculate" button. <br>
-            <strong>Step 3:</strong> Fufill your Geometry dreams!<br>
-        </p>
-      </div>
+        <div class="header">
+            <h1>Clock Angle Calculator</h1>
+            <img src="clockImg.png">
+            <p class="lead">
+                <strong>Step 1:</strong> Input time in number format. <br>
+                <strong>Step 2:</strong> Press the "Calculate" button. <br>
+                <strong>Step 3:</strong> Fufill your Geometry dreams!<br>
+            </p>
+        </div>
 
-      <div class="input fields">
-          <div class="form-group">  <!--Hour Position Input-->
-            <label class="usr">Hour(s):</label>
-            <input type="text" class="form-control" id="hour" placeholder="Short Hand">
-          </div>
+        <div class="input fields">
+            <div class="form-group">
+                <!--Hour Position Input-->
+                <label class="usr">Hour(s):</label>
+                <input type="text" class="form-control" id="hour" placeholder="Short Hand">
+            </div>
 
-          <div class="form-group">  <!--Minute Position Input-->
-            <label class="pwd">Minute(s):</label>
-              <input type="text" class="form-control" id="minute" placeholder="Big Hand">
-          </div>
+            <div class="form-group">
+                <!--Minute Position Input-->
+                <label class="pwd">Minute(s):</label>
+                <input type="text" class="form-control" id="minute" placeholder="Big Hand">
+            </div>
 
-          <div class="form-group">  <!--Final Output-->
-            <button class="btn btn-default" type="submit">Calculate</button>
-            <input type="text" class="form-control" id="result" placeholder="Results">
-          </div>
-      </div>
+            <div class="form-group">
+                <!--Final Output-->
+                <button class="btn btn-default" type="submit">Calculate</button>
+                <input type="text" class="form-control" id="result" placeholder="Results">
+            </div>
+        </div>
     </div>
 
 
@@ -71,5 +74,6 @@
     <script type="text/javascript" src="clock.js"></script>
 
 
-  </body>
+</body>
+
 </html>
