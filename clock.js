@@ -12,7 +12,7 @@ $(document).ready(function () {
         else if (minute > 59 || minute < 0) {   // Checks for invalid minute.
             $("#result").val("Invalid Time");
         }
-        else {
+        else {  // If valid input.
             return true;
         }
     };
